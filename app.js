@@ -6,7 +6,7 @@ var os = require("os");
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.write('Hello World !\n');
+    res.write('Hello World ! (Real Linux) \n');
     res.write(os.hostname());
     res.end('\n');
 });
